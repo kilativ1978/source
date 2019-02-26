@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GGP
+Comment=GGP P2P Cryptocurrency
+Comment[fr]=GGP, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=GGP, eşten eşe kriptografik sanal para birimi
+Exec=ggp-qt %u
+Terminal=false
+Type=Application
+Icon=ggp128
+MimeType=x-scheme-handler/ggp;
+Categories=Office;Finance;

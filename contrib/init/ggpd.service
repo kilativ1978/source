@@ -1,0 +1,26 @@
+[Unit]
+Description=GGP's distributed currency daemon
+After=network.target
+
+[Service]
+User=ggp
+Group=ggp
+
+Type=forking
+PIDFile=/var/lib/ggpd/ggpd.pid
+
+ExecStart=/usr/bin/ggpd -daemon -pid=/var/lib/ggpd/ggpd.pid \
+          -conf=/etc/ggp/ggp.conf -datadir=/var/lib/ggpd
+
+ExecStop=-/usr/bin/ggp-cli -conf=/etc/ggp/ggp.conf \
+         -datadir=/var/lib/ggpd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

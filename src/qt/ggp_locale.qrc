@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ggp_bg.qm</file>
+        <file alias="de">locale/ggp_de.qm</file>
+        <file alias="en">locale/ggp_en.qm</file>
+        <file alias="es">locale/ggp_es.qm</file>
+        <file alias="fi">locale/ggp_fi.qm</file>
+        <file alias="fr">locale/ggp_fr.qm</file>
+        <file alias="it">locale/ggp_it.qm</file>
+        <file alias="ja">locale/ggp_ja.qm</file>
+        <file alias="pl">locale/ggp_pl.qm</file>
+        <file alias="pt">locale/ggp_pt.qm</file>
+        <file alias="ru">locale/ggp_ru.qm</file>
+        <file alias="sk">locale/ggp_sk.qm</file>
+        <file alias="sv">locale/ggp_sv.qm</file>
+        <file alias="vi">locale/ggp_vi.qm</file>
+        <file alias="zh_CN">locale/ggp_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ggp_zh_TW.qm</file>
+    </qresource>
+</RCC>

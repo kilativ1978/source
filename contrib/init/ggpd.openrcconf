@@ -1,0 +1,26 @@
+# /etc/conf.d/ggpd: config file for /etc/init.d/ggpd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ggp/ggp.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ggpd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ggpd.pid"
+
+# Where to write ggpd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ggpd"
+
+# User and group to own ggpd process
+#BITCOIND_USER="ggp"
+#BITCOIND_GROUP="ggp"
+
+# Path to ggpd executable
+#BITCOIND_BIN="/usr/bin/ggpd"
+
+# Nice value to run ggpd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
